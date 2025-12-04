@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>coldcash.com — Premium Domain For Sale</title>
+  <meta name="description" content="coldcash.com — premium domain ideal for fintech, payout platforms, instant transfers, cash-back apps, and bold consumer finance brands. Submit an offer to purchase." />
+  <meta property="og:title" content="coldcash.com — Premium Domain For Sale" />
+  <meta property="og:description" content="coldcash.com — premium domain for payout platforms, cash-back products, instant transfers and fintech brands. Contact domain@coldcash.com" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#071127" />
+  <link rel="icon" href="/favicon.ico" />
+
+  <style>
+    :root{
+      --max-width:1024px;
+      --panel:#ffffff;
+      --muted:#9aa6b0;
+      --accent-cold:#3fe1ff;    /* icy cyan */
+      --accent-deep:#00a3c4;    /* deeper cyan */
+      --ink:#07121a;
+      --bg-1:#020617;           /* near-black midnight */
+      --bg-2:#071e2a;           /* deep teal navy */
+      --frost: rgba(255,255,255,0.04);
+      --radius:16px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      min-height:100vh;
+      display:flex;
+      align-items:flex-start;
+      justify-content:center;
+      padding:36px 20px;
+      color:var(--panel);
+      background:
+        radial-gradient(1000px 400px at 10% 10%, rgba(63,225,255,0.035), transparent 12%),
+        linear-gradient(180deg,var(--bg-1) 0%, var(--bg-2) 100%);
+      overflow-x:hidden;
+      line-height:1.5;
+    }
+
+    /* Background look chosen: "Icy finance" - frosted glass, neon highlights and floating banknotes */
+    .frost {
+      position:fixed;
+      inset:0;
+      pointer-events:none;
+      z-index:0;
+      background-image:
+        radial-gradient(600px 200px at 80% 20%, rgba(63,225,255,0.02), transparent 18%),
+        radial-gradient(600px 240px at 22% 78%, rgba(0,163,196,0.02), transparent 18%),
+        linear-gradient(90deg, rgba(255,255,255,0.01) 1px, transparent 1px);
+      background-size: cover, cover, 220px 220px;
+      mix-blend-mode: screen;
+      opacity:0.95;
+    }
+
+    /* floating banknote / coin icons (SVG data-urls) */
+    .floaters {
+      position:fixed;
+      inset:0;
+      z-index:0;
+      pointer-events:none;
+      opacity:0.09;
+      mix-blend-mode: screen;
+    }
+
+    .floater {
+      position:absolute;
+      width:96px;
+      height:64px;
+      background-size:contain;
+      background-repeat:no-repeat;
+      transform: translateZ(0);
+      filter: blur(0.2px);
+    }
+
+    /* subtle frost texture at bottom */
+    .ice-shelf {
+      position:fixed;
+      left:0; right:0; bottom:0;
+      height:18vh;
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.06));
+      mask-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+      z-index:0;
+      pointer-events:none;
+    }
+
+    .container{
+      width:100%;
+      max-width:var(--max-width);
+      padding:32px;
+      border-radius:18px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      backdrop-filter: blur(8px) saturate(1.05);
+      box-shadow: 0 30px 120px rgba(2,6,12,0.7);
+      border: 1px solid rgba(255,255,255,0.04);
+      position:relative;
+      z-index:2;
+      color:var(--panel);
+    }
+
+    header{
+      display:flex;
+      gap:18px;
+      align-items:center;
+      justify-content:space-between;
+      margin-bottom:18px;
+    }
+
+    .brand{ display:flex; gap:14px; align-items:center; }
+    .logo{
+      width:72px;
+      height:72px;
+      border-radius:14px;
+      background: linear-gradient(135deg,var(--accent-cold),var(--accent-deep));
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#02121a;
+      font-weight:800;
+      font-size:20px;
+      box-shadow: 0 10px 30px rgba(0,163,196,0.08);
+      flex-shrink:0;
+      border:1px solid rgba(255,255,255,0.03);
+    }
+
+    h1{ margin:0; font-size:26px; color:var(--panel); }
+    p.lead{ margin:6px 0 0; color:var(--muted); font-size:14px; }
+
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr 360px;
+      gap:26px;
+      align-items:start;
+    }
+
+    .hero {
+      background: linear-gradient(90deg, rgba(63,225,255,0.03), rgba(0,163,196,0.02));
+      padding:14px 16px;
+      border-radius:12px;
+      color:var(--accent-cold);
+      margin-bottom:16px;
+      border:1px solid rgba(63,225,255,0.04);
+    }
+    .hero p{ margin:0; font-size:14px; color:var(--panel); }
+
+    .panel {
+      background: rgba(255,255,255,0.98);
+      color:var(--ink);
+      padding:22px;
+      border-radius:14px;
+      box-shadow: 0 8px 26px rgba(2,6,12,0.12);
+      border: 1px solid rgba(2,6,12,0.04);
+      max-width:var(--content-width);
+    }
+
+    h2{ margin-top:0; font-size:20px; color:var(--ink); }
+    .features ul{ margin:0; padding-left:18px; color:var(--muted); }
+    .features li{ margin-bottom:10px; }
+
+    .cta-row{ display:flex; gap:12px; margin-top:14px; flex-wrap:wrap; align-items:center; }
+    .btn{
+      display:inline-flex;
+      gap:10px;
+      align-items:center;
+      padding:10px 16px;
+      border-radius:999px;
+      font-weight:700;
+      cursor:pointer;
+      text-decoration:none;
+      border:0;
+    }
+    .btn-primary{
+      background: linear-gradient(90deg,var(--accent-cold),var(--accent-deep));
+      color:#061217;
+      box-shadow: 0 10px 30px rgba(0,163,196,0.12);
+    }
+    .btn-ghost{
+      background:transparent;
+      border:1px solid rgba(2,6,12,0.06);
+      color:var(--muted);
+    }
+
+    .price { margin-top:12px; font-weight:700; color:var(--ink); font-size:16px; }
+    .muted-small { color:var(--muted); font-size:13px; margin-top:6px; }
+
+    .contact-card{
+      position:sticky;
+      top:32px;
+      align-self:start;
+      background: linear-gradient(180deg, rgba(255,255,255,0.995), rgba(255,255,255,0.98));
+      padding:18px;
+      border-radius:12px;
+      border:1px solid rgba(2,6,12,0.03);
+      box-shadow: 0 8px 26px rgba(2,6,12,0.06);
+      max-width:360px;
+      color:var(--ink);
+    }
+
+    .contact-card h3{ margin:0 0 8px 0; font-size:16px; color:var(--ink); }
+    .contact-email, .contact-email a{
+      white-space:nowrap;
+      display:inline-block;
+      font-weight:700;
+      color:var(--accent-deep);
+      word-break: normal;
+      font-size:0.98rem;
+      text-decoration:none;
+    }
+
+    form label{ display:block; font-size:13px; color:var(--muted); margin-bottom:6px; }
+    form input, form textarea {
+      width:100%;
+      padding:10px 12px;
+      border-radius:10px;
+      border:1px solid rgba(2,6,12,0.06);
+      background:#fff;
+      color:var(--ink);
+      font-size:14px;
+      margin-bottom:12px;
+    }
+    form textarea{ min-height:110px; resize:vertical; }
+
+    footer{ margin-top:18px; color:var(--muted); font-size:13px; text-align:center; }
+
+    @media (max-width:980px){
+      .grid{ grid-template-columns: 1fr; gap:18px; }
+      .contact-card{ position:relative; top:auto; width:100%; max-width:none; }
+      .container{ padding:22px; }
+      .logo{ width:64px; height:64px; border-radius:12px; }
+      h1{ font-size:22px; }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"WebSite",
+        "url":"https://coldcash.com",
+        "name":"coldcash.com",
+        "description":"coldcash.com — premium domain for payout platforms, instant transfers, cash-back products and fintech brands."
+      },
+      {
+        "@type":"ContactPoint",
+        "contactType":"sales",
+        "email":"domain@coldcash.com"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="frost" aria-hidden="true"></div>
+
+  <div class="floaters" aria-hidden="true" id="floaters">
+    <!-- a few floating banknote icons placed by JS for variety -->
+  </div>
+
+  <div class="ice-shelf" aria-hidden="true"></div>
+
+  <main class="container" role="main" aria-labelledby="main-heading">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true">CC</div>
+        <div>
+          <h1 id="main-heading">coldcash.com</h1>
+          <p class="lead">Premium domain for payout platforms, instant transfers, cash-back apps and bold fintech brands.</p>
+        </div>
+      </div>
+
+      <div style="text-align:right">
+        <div style="color:var(--muted);font-size:13px">For inquiries</div>
+        <div class="contact-email"><a href="mailto:domain@coldcash.com">domain@coldcash.com</a></div>
+      </div>
+    </header>
+
+    <div class="hero" role="note" aria-live="polite">
+      <p>
+        ColdCash.com pairs a memorable phrase with a sharp, modern aesthetic — excellent for brands that promise fast payouts, cash rewards, or striking fintech experiences.
+      </p>
+    </div>
+
+    <section class="grid" aria-label="Main content">
+      <div>
+        <article class="panel" aria-labelledby="why-title">
+          <h2 id="why-title">Why coldcash.com?</h2>
+          <p class="lead">A punchy, brand-forward .com that captures attention. Great for payout rails, consumer-cashback services, remittance apps, promotional payment platforms and fintech marketing campaigns.</p>
+
+          <div class="features" style="margin-top:12px">
+            <ul>
+              <li>Short, memorable and emotive — strong consumer appeal</li>
+              <li>Fits payout platforms, remittance, instant transfers, fintech rewards and cash-back products</li>
+              <li>Works well across mobile apps, performance marketing and brand campaigns</li>
+            </ul>
+
+            <p style="margin-top:12px"><a href="https://corelli.com/domains.html" style="color:var(--accent-deep)">How to Choose A Domain Name</a></p>
+          </div>
+
+          <div class="cta-row" role="group" aria-label="Actions">
+            <a class="btn btn-primary" href="#" id="inquireBtn">Make an Offer</a>
+            <a class="btn btn-ghost" href="mailto:domain@coldcash.com?subject=Domain%20Offer%20-%20coldcash.com">Email Now</a>
+          </div>
+
+          <div class="price">Domain: coldcash.com</div>
+          <div class="muted-small">Serious offers only. Transfer via escrow recommended for security and trust.</div>
+        </article>
+
+        <article class="panel" style="margin-top:18px" aria-labelledby="about-title">
+          <h3 id="about-title" style="margin-top:0">About this domain</h3>
+          <p class="lead">ColdCash.com suits founders and marketers building high-visibility consumer finance products: payout-focused apps, promotional rewards, cash-back platforms and instant-transfer services.</p>
+
+          <ul style="color:var(--muted);margin-top:12px">
+            <li>Perfect for consumer fintech, payout rails, remittance and reward programs</li>
+            <li>Useful for growth campaigns, app store creatives, and brand-first product experiences</li>
+            <li>Transfer-ready — we recommend escrow to ensure a safe and verifiable transaction</li>
+          </ul>
+        </article>
+      </div>
+
+      <aside class="contact-card" aria-label="Contact & offer">
+        <div>
+          <h3 style="margin-top:0">Contact & Offer</h3>
+          <p style="margin-top:6px;color:var(--muted)">Submit an offer — this form opens your email client with the details prefilled. Or email <a href="mailto:domain@coldcash.com" class="contact-email">domain@coldcash.com</a>.</p>
+
+          <form id="inquiryForm" onsubmit="handleSubmit(event)" aria-label="Domain offer form">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" placeholder="Jane Doe" required />
+
+            <label for="email">Your email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+            <label for="offer">Your offer (USD)</label>
+            <input id="offer" name="offer" type="text" placeholder="Enter your offer (USD)" required />
+
+            <label for="company">Company (optional)</label>
+            <input id="company" name="company" type="text" placeholder="Your company or organization" />
+
+            <label for="country">Country</label>
+            <input id="country" name="country" type="text" placeholder="Your country" required />
+
+            <label for="phone">Phone number (optional)</label>
+            <input id="phone" name="phone" type="tel" />
+
+            <label for="message">Message (questions, timeline, escrow preference)</label>
+            <textarea id="message" name="message" placeholder="Hi — I'm submitting an offer for coldcash.com. Please share transfer instructions and next steps."></textarea>
+
+            <button class="btn btn-primary" type="submit" style="width:100%; margin-top:6px">Send Offer</button>
+          </form>
+
+          <footer style="margin-top:10px; text-align:left; color:var(--muted); font-size:13px">
+            Prefer a direct email? <a href="mailto:domain@coldcash.com" style="color:var(--accent-deep)" class="contact-email">domain@coldcash.com</a>
+          </footer>
+        </div>
+      </aside>
+    </section>
+
+    <footer>
+      &copy; 2025 coldcash.com. All rights reserved.
+    </footer>
+  </main>
+
+  <script>
+    // Decorative floating banknotes placed dynamically to vary positions and animation
+    (function createFloaters(){
+      const container = document.getElementById('floaters');
+      if(!container) return;
+      const svgNote = encodeURIComponent(
+        `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 32'><rect x='1' y='1' width='46' height='30' rx='3' fill='%2300A3C4' /><rect x='6' y='6' width='12' height='8' rx='1' fill='%23E6FFFF' opacity='0.12'/><circle cx='38' cy='16' r='6' fill='%23E6FFFF' opacity='0.12'/><text x='24' y='20' font-size='10' text-anchor='middle' fill='%23E6FFFF' opacity='0.18'>$</text></svg>`
+      );
+      const count = 10;
+      for(let i=0;i<count;i++){
+        const el = document.createElement('div');
+        el.className = 'floater';
+        el.style.left = (5 + Math.random()*90) + 'vw';
+        el.style.top = (6 + Math.random()*72) + 'vh';
+        el.style.width = (64 + Math.random()*64) + 'px';
+        el.style.height = (44 + Math.random()*34) + 'px';
+        el.style.backgroundImage = `url("data:image/svg+xml;utf8,${svgNote}")`;
+        // animation
+        const dur = 8 + Math.random()*12;
+        el.style.transition = `transform ${dur}s linear, opacity ${dur}s linear`;
+        (function animate(el, dur){
+          let dir = 1;
+          function step(){
+            const tx = (Math.random()-0.5)*8;
+            const ty = dir * (10 + Math.random()*24);
+            el.style.transform = `translate(${tx}px, ${ty}px) rotate(${(Math.random()-0.5)*30}deg)`;
+            dir *= -1;
+            setTimeout(step, dur*1000);
+          }
+          setTimeout(step, Math.random()*1000);
+        })(el, dur);
+        container.appendChild(el);
+      }
+    })();
+
+    // Compose a mailto: URL from the form and open email client
+    function handleSubmit(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const offer = document.getElementById('offer').value.trim();
+      const company = document.getElementById('company').value.trim();
+      const country = document.getElementById('country').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      const subject = encodeURIComponent('Domain Offer - coldcash.com');
+      const bodyText =
+        `Name: ${name}\n` +
+        `Email: ${email}\n` +
+        `Company: ${company || '(not provided)'}\n` +
+        `Offer (USD): ${offer}\n` +
+        `Country: ${country}\n` +
+        `Phone: ${phone || '(not provided)'}\n\n` +
+        `Message:\n${message}\n\n---\nSent from coldcash.com offer form`;
+
+      const body = encodeURIComponent(bodyText);
+      const mailto = `mailto:domain@coldcash.com?subject=${subject}&body=${body}`;
+      window.location.href = mailto;
+    }
+
+    document.getElementById('inquireBtn').addEventListener('click', function(e){
+      e.preventDefault();
+      const form = document.getElementById('inquiryForm');
+      if(window.innerWidth < 900){
+        form.scrollIntoView({behavior:'smooth', block:'center'});
+        form.querySelector('input').focus();
+      } else {
+        const subject = encodeURIComponent('Domain Offer - coldcash.com');
+        const body = encodeURIComponent('Hi — I would like to make an offer for coldcash.com. Please reply with transfer instructions and next steps.');
+        window.location.href = `mailto:domain@coldcash.com?subject=${subject}&body=${body}`;
+      }
+    });
+  </script>
+</body>
+</html>
